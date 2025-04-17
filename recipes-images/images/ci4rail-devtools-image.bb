@@ -20,7 +20,6 @@ IMAGE_INSTALL += "\
                   stress-ng \
                   tdx-oak-sensors \
                   cpuburn-a53 \
-                  clpeak \
                   memtester \
                   pcimem \
                   dhrystone \
