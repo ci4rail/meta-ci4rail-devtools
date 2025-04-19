@@ -9,6 +9,7 @@ HOMEPAGE = "https://github.com/stressapptest/stressapptest"
 SECTION = "benchmark"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://COPYING;md5=55ea9d559f985fb4834317d8ed6b9e58"
+SRC_URI[sha256sum] = "0b45733ac7c36cae7c62e5aae2114fc064d517b818dea6b34243d5867f4fe9c5"
 
 # LIBAIO is required for raw disk tests. If missing, disk tests abort after first
 # disk write. This dependency was missing in
@@ -16,7 +17,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=55ea9d559f985fb4834317d8ed6b9e58"
 DEPENDS:append = " libaio"
 
 SRC_URI = "\
-           git://github.com/stressapptest/stressapptest \
+           https://github.com/stressapptest/stressapptest \
            file://libcplusplus-compat.patch \
            file://read_sysfs_for_cachesize.patch \
            "

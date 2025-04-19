@@ -23,7 +23,6 @@ IMAGE_INSTALL += "\
                   memtester \
                   pcimem \
                   dhrystone \
-                  stressapptest \
                   tinymembench \
                   whetstone \
                   fio \
@@ -40,4 +39,5 @@ IMAGE_INSTALL += "\
                   lrzsz \
                   alsa-utils \
                   "
+#                  stressapptest
 #                  gpsdtestclient
