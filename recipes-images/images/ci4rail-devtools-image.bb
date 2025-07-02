@@ -38,6 +38,7 @@ IMAGE_INSTALL += "\
                   picocom \
                   lrzsz \
                   alsa-utils \
+                  stress-ng \
                   "
 #                  stressapptest
 #                  gpsdtestclient
